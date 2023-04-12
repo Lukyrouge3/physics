@@ -13,6 +13,12 @@
     <ClCompile Include="solver.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="collisionGrid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_pool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -27,6 +33,15 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="solver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionGrid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_pool.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

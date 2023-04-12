@@ -181,15 +181,20 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="collisionGrid.cpp" />
     <ClCompile Include="particle.cpp" />
     <ClCompile Include="solver.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
+    <ClCompile Include="thread_pool.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="collisionGrid.h" />
+    <ClInclude Include="grid.h" />
     <ClInclude Include="particle.h" />
     <ClInclude Include="solver.h" />
     <ClInclude Include="src\ofApp.h" />
+    <ClInclude Include="thread_pool.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
